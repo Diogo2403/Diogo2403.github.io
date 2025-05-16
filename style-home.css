@@ -1,0 +1,182 @@
+body {
+    color-scheme: calc();
+    background-color: #ffe6f0;
+}
+
+.g h1{
+   font-family: Arial, Helvetica, sans-serif;
+    margin-left: 38%;
+    color: black;
+    margin-top: -115px;
+    position: absolute;
+    font-size: 50px;
+}
+
+.l {
+   width: 1528px;
+   height: 130px;
+   background-color: #ff66b2;
+   margin-top: -10%;
+   margin-left: -1%;
+   position: absolute;
+}
+.conteudo {
+   position: absolute;
+   margin-top: 23%;
+}
+.imagem-central {
+   margin-left: 29%;
+   position: absolute;
+}
+.Diogo{
+   position: absolute;
+   margin-top: -50%;
+   margin-left: 17%;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 17px;
+}
+.e h1{
+   font-family: Arial, Helvetica, sans-serif;
+   margin-top: 15%;
+}
+.e p{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 20px;
+}
+ol{
+   width: 300px;
+   margin-top: 60%;
+   list-style: none;
+   margin-left: 26%;
+}
+
+ol li{
+   font-size: 1.1rem;
+   padding: 9px 30px;
+   margin: 2% 0;
+   background-color: rgb(30, 30, 30);
+   cursor: pointer;
+   position: relative;
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   transition: all .4s;
+   z-index: 10;
+}
+ol li::before {
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 5px;
+   height: 100%;
+   background-color: #ff66b2;
+   transition: all .4s;
+      z-index: -1;
+}
+
+ol li:hover::before{
+   width: 100%;
+}
+
+ol li:nth-child(1)::before {
+   background-color: palevioletred;}
+ol li:nth-child(2)::before {
+   background-color: palevioletred;}
+   ol li:nth-child(3)::before {
+   background-color: palevioletred;}
+   ol li:nth-child(4)::before {
+   background-color: palevioletred;}
+   ol li:nth-child(5)::before {
+   background-color: palevioletred;}
+ol li:hover {
+   transform: translateX(20px);
+}
+
+.re{
+   font-family: Arial, Helvetica, sans-serif;
+   position: absolute;
+   margin-top: 52%;
+   margin-left: 43%;
+}
+
+.list ol{
+   width: 300px;
+   margin-top: -278px;
+   list-style: none;
+   margin-left: 50%;
+}
+
+.list ol li{
+   font-size: 1.1rem;
+   padding: 9px 30px;
+   margin: 2% 0;
+   background-color: rgb(30, 30, 30);
+   cursor: pointer;
+   position: relative;
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   transition: all .4s;
+   z-index: 10;
+}
+.list ol li::before {
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 5px;
+   height: 100%;
+   background-color: #ff66b2;
+   transition: all .4s;
+      z-index: -1;
+}
+
+.list ol li:hover::before{
+   width: 100%;
+}
+
+.list ol li:nth-child(6)::before {
+   background-color: palevioletred;}
+.list ol li:nth-child(5)::before {
+   background-color: palevioletred;}
+.list ol li:nth-child(4)::before {
+   background-color: palevioletred;}
+.list ol li:nth-child(3)::before {
+   background-color: palevioletred;}
+.list ol li:nth-child(2)::before {
+   background-color: palevioletred;}
+.list ol li:hover {
+   transform: translateX(20px);
+}
+
+.ki{
+   width: 1100px;
+   height: 350px;
+   background-color: #ff66b2;
+   position: absolute;
+   margin-top: -50%;
+   margin-left: 13%;
+   border-radius: 3ch;
+}
+.a img{
+   position: absolute;
+   width: 90px;
+   margin-top: -125px;
+   border-radius: 50%;
+   margin-left: 1%;
+}
+.fa a{
+   margin-top: -95%;
+   margin-left: 89%;
+   color: black;
+   position: absolute;
+   font-size: 21px;
+   font-family: Arial, Helvetica, sans-serif;
+   text-decoration: none;
+   background-color: pink;
+   padding: 10px;
+   border-radius: 5%;
+}
+.fa a:hover{
+  transition: 100ms;
+  padding: 13px;
+}
